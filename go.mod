@@ -1,4 +1,4 @@
-module github.com/gogf/gf/v2
+module github.com/surfycui/gogf/v2
 
 go 1.15
 

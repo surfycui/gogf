@@ -10,7 +10,7 @@ import (
 	"io"
 
 	"github.com/gogf/gf/v2/errors/gerror"
-	"github.com/gogf/gf/v2/internal/json"
+	"github.com/surfycui/gogf/v2/internal/json"
 	"github.com/gogf/gf/v2/net/gtcp"
 )
 
@@ -38,6 +38,7 @@ func Send(pid int, data []byte, group ...string) error {
 	// Do the sending.
 	var result []byte
 	result, err = conn.SendRecvPkg(msgBytes, gtcp.PkgOption{
+		HeaderSize: 4,
 		Retry: gtcp.Retry{
 			Count: 3,
 		},

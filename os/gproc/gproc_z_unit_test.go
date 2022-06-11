@@ -11,7 +11,7 @@ package gproc_test
 import (
 	"testing"
 
-	"github.com/gogf/gf/v2/os/gproc"
+	"github.com/surfycui/gogf/v2/os/gproc"
 	"github.com/gogf/gf/v2/test/gtest"
 )
 

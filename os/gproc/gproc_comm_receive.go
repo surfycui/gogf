@@ -14,7 +14,7 @@ import (
 	"github.com/gogf/gf/v2/container/gqueue"
 	"github.com/gogf/gf/v2/container/gtype"
 	"github.com/gogf/gf/v2/errors/gerror"
-	"github.com/gogf/gf/v2/internal/json"
+	"github.com/surfycui/gogf/v2/internal/json"
 	"github.com/gogf/gf/v2/net/gtcp"
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/os/glog"

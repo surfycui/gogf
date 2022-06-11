@@ -16,7 +16,7 @@ import (
 
 	"github.com/gogf/gf/v2/errors/gcode"
 	"github.com/gogf/gf/v2/errors/gerror"
-	"github.com/gogf/gf/v2/internal/intlog"
+	"github.com/surfycui/gogf/v2/internal/intlog"
 )
 
 // Process is the struct for a single process.
